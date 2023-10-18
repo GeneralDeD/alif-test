@@ -70,7 +70,7 @@ const handleSubmit = (event: Event) => {
 
   const response = createQuote({
     ...data,
-    id: getQuotesLength,
+    id: getQuotesLength + 1,
     createdAt: date,
     updatedAt: date
   })
